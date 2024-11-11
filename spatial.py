@@ -59,7 +59,7 @@ if __name__ == "__main__":
   results = []
 
   # Main experiment loop    
-  for _ in range(10):  # Number of repetitions
+  for _ in range(100):  # Number of repetitions
     # Fixation stimulus
     fixation = visual.TextStim(win, text='+', color='black', height=50)
     fixation.draw()
